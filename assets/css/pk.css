@@ -1,0 +1,298 @@
+
+
+#hero h1{
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'alien_ravageritalic';
+    font-size: min(64px,10vw);
+    letter-spacing: 10px;
+    /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(187,67,252,1) 72%, rgba(75,44,255,1) 100%); */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    z-index: 2;
+}
+
+#logo img{
+    transform: scale(1.1);
+}
+
+.attach{
+    position: relative;
+}
+
+.gif{
+    position: absolute;
+    right: 100px;
+    bottom: 10px;
+    
+    z-index: 0;
+}
+
+.front-gif{
+    position: absolute;
+    top: -90px;
+    left: -70px;
+}
+
+.front-gif img{
+    width: 90px;
+    filter: brightness(80%);
+
+}
+
+.gif img{
+    width: 478px;
+    /* filter: brightness(80%); */
+    transition: all ease-in;
+    
+
+}
+
+.down span{
+    font-size: 100px;
+}
+
+.event-date
+{
+    /* font-size: 23px; */
+    font-family: "Permanent Marker";
+    letter-spacing: 5px;
+}
+
+.college{
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.gif-robo{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.robo{
+    width: 150px;
+    position: absolute;
+    top: -60px;
+    margin-right: 350px;
+}
+
+@media only screen and (max-width: 451px) {
+    .robo{
+        width: 150px;
+        position: absolute;
+        top: -60px;
+        margin-right: 280px;
+    }
+}
+
+.techno-intro{
+    
+    background-color: rgba(225, 104, 255, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    filter: blur(100px);
+    z-index: 0;
+    transition: all ease-in;
+
+}
+
+
+
+
+
+.arrow-down img{
+    font-size: 20px;
+    filter: invert(1);
+    width: 30px;
+    margin-top: 50px;
+    
+    
+}
+
+.arrow-down{
+    animation: go-down 5s ease-in 1s infinite;
+    cursor: pointer;
+}
+
+@keyframes go-down {
+    0%{
+        transform: translateY(0px);
+    }
+
+    5%,25%{
+        transform: translateY(30px);
+    }
+
+    15%,35%{
+        transform: translateY(0);
+    }
+}
+
+.about-gif img{
+    position: absolute;
+    right: 0;
+    top: -10px;
+    width: 300px;
+}
+
+.highlight-about{
+    color: #f82249;
+}
+
+.event-img{
+    width: 100%;
+}
+
+.schedule-head{
+    position: relative;
+    width: 700px;
+}
+
+.schedule-gif img{
+    position: absolute;
+    width: 80px;
+    top: -20px;
+    right: 100px;
+}
+
+.schedule-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .schedule-gif img{
+        position: absolute;
+        width: 80px;
+        top: -20px;
+        right: 0px;
+    }
+}
+
+@media only screen and (max-width: 905px) {
+    .front-gif{
+        display: none;
+
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .about-gif img{
+        position: absolute;
+        right: 0;
+        top: 120px;
+        width: 200px;
+    }
+}
+
+
+
+@media only screen and (max-width: 512px) {
+    .schedule-gif img{
+        position: absolute;
+        width: 40px;
+        top: 45px;
+        right: 20px;
+    }
+    .techno-intro{
+        background-color: rgba(225, 104, 255, 0.2);
+    }
+}
+
+.buy-tickets{
+    color: white !important ;
+}
+
+#schedule{
+    position: relative;
+}
+
+.schedule-bottom-gif img{
+    position: absolute;
+    width: 200px;
+    right: 20px;
+    bottom: 10px;
+}
+
+.individual-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.individual-header{
+    display: flex;
+    align-items: center;
+    
+}
+
+.individual-event-body{
+    display: flex;
+}
+
+.individual-event-body__text{
+    margin-left: 35px;
+}
+
+.individual-prizes{
+    font-size: 24px !important ;
+    color: #f82249 !important;
+    text-align: center;
+}
+
+.part-type{
+    font-size: 18px !important;
+    font-weight: bolder;
+    
+}
+
+/* .ball-gif img{
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 49%;
+    filter: brightness(70%);
+} */
+
+@media only screen and (max-width: 768px) {
+
+    .schedule-bottom-gif img{
+        position: absolute;
+    width: 100px;
+    right: 20px;
+    bottom: 80px;
+    }
+}
+
+
+
+
+.logo-main img{
+    width: 300px;
+    /* position: absolute; */
+    /* top: -100px;
+    left: 180px; */
+}
+
+@media only screen and (max-width: 768px) {
+
+    .logo-main img{
+        width: 300px;
+        
+    }
+}
+
+
+
+.attach{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
