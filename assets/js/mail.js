@@ -1,14 +1,3 @@
-// const firebaseConfig = {
-//   apiKey: "AIzaSyBDGqm2DQOoFKxsAqEYN5rDHE65OjHibX4",
-//   authDomain: "membership-772b6.firebaseapp.com",
-//   databaseURL: "https://membership-772b6-default-rtdb.firebaseio.com",
-//   projectId: "membership-772b6",
-//   storageBucket: "membership-772b6.appspot.com",
-//   messagingSenderId: "397222279693",
-//   appId: "1:397222279693:web:5d6ef38ea8a2c87a563344",
-//   measurementId: "G-7H5GHKFRV7",
-// };
-
 const firebaseConfig = {
   apiKey: "AIzaSyDft2XPyTBxw8Cm_GE14K0Kg9s-cpq-ikk",
   authDomain: "contactform-f7188.firebaseapp.com",
@@ -34,10 +23,6 @@ function submitForm(e) {
   var name = getElementVal("name");
   var email = getElementVal("email");
   var mobile = getElementVal("mobile");
-  // var date = getElementVal("dob");
-  // var plan = getElementVal("optn1");
-  // var password = getElementVal("password");
-
   var subject = getElementVal("subject");
   var comment = getElementVal("comment");
 
@@ -54,9 +39,6 @@ const saveMessages = (name, email, mobile, subject, comment) => {
     name: name,
     email: email,
     mobile: mobile,
-    // date: date,
-    // plan: plan,
-    // password: password,
     subject: subject,
     comment: comment,
   });
