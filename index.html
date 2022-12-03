@@ -516,6 +516,23 @@
 		<!-- contact us section ends -->
 
 
+    <!-- contact form -->
+    <div class="container padding-32" id="contact">
+      <h3 class="border-bottom border-light-grey padding-16">Contact</h3>
+      <p>Lets get in touch and talk about your fitness plans.</p>
+      <form id="ContactForm">
+        <input class="input border" type="text" placeholder="Name" required name="Name" id="name">
+        <input class="input section border" type="email" placeholder="example@email.com" required name="Email" id="email">
+        <input class="input section border" type="tel" placeholder="Phone Number" required name="Phone" id="mobile">
+        <input class="input section border" type="text" placeholder="Subject of your message" required name="Subject" id="subject">
+        <input class="input section border" type="text" placeholder="Your message...." required name="Comment" id="comment">
+        <button class="button black section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND INQUIRY
+        </button>
+      </form>
+    </div>
+
+
 
    
     <!-- ======= Contact Section ======= -->
@@ -590,11 +607,14 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   
 
-
+  <!-- firebase stuffs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="./assets/js/mail.js"></script>
 
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  
 
 </body>
 
