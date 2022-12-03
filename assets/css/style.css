@@ -1252,3 +1252,27 @@ h3 {
 }
 
 
+/* new css */
+
+.contactwrapper {
+  background: #222222;
+  color: #ffffff;
+  margin: 0;
+  width: 100%;
+}
+
+.sch {
+  font: 18px/25px Open Sans;
+  font-weight: bold;
+  color: #ff4301;
+  padding: 15px 0;
+}
+
+#schedule-content {
+  margin: auto;
+  padding-left: 100px;
+}
+
+h3 {
+  padding-top: 20px;
+}
