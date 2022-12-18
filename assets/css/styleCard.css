@@ -39,6 +39,7 @@ body {
   display: flex;
   align-items: flex-end;
   overflow: hidden;
+  border-radius: 25px;
   padding: 1rem;
   width: 100%;
   text-align: center;
@@ -97,17 +98,17 @@ body {
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .card:nth-child(1):before {
-  background-image: url(https://www.pexels.com/photo/grayscale-photography-of-a-tattooed-woman-carrying-plates-while-exercising-13966199/);
+  background-image: url(https://images.pexels.com/photos/13966199/pexels-photo-13966199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 .card:nth-child(2):before {
-  background-image: url(https://www.pexels.com/photo/topless-man-flexing-his-muscles-14375158/);
+  background-image: url(https://images.pexels.com/photos/14375158/pexels-photo-14375158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 .card:nth-child(3):before {
-  background-image: url(https://www.pexels.com/photo/a-woman-in-white-sports-bra-and-shorts-stretching-while-holding-a-wooden-stick-6389863/);
+  background-image: url(https://images.pexels.com/photos/6389863/pexels-photo-6389863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 
 .card:nth-child(4):before {
-  background-image: url(https://www.pexels.com/photo/man-jumping-in-mid-air-holding-blue-ball-above-his-head-2827400/);
+  background-image: url(https://images.pexels.com/photos/2827400/pexels-photo-2827400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 .content {
   position: relative;
