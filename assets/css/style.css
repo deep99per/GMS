@@ -430,7 +430,7 @@ h2 {
   height: 100vh;
   /* background: url(../new_images/bg1.jpg) top center; */
   /*background: url(../new_images/pexel1.jpg) top center;*/
-  background: url(../new_images/body.gif) top center;
+  background: url(../new_images/body.gif)top center center;
   /* background: url(../new_images/Website\ banner.jpg) top center; */
   background-size: cover;
   background-position: bottom;
