@@ -430,7 +430,7 @@ h2 {
   height: 100vh;
   /* background: url(../new_images/bg1.jpg) top center; */
   /*background: url(../new_images/pexel1.jpg) top center;*/
-  background: #474747 url("https://giphy.com/gifs/rickandmorty-season-1-adult-swim-rick-and-morty-KDQ25pahVfwGRvvT9X") top center;
+  background: url(../new_images/morty.gif) top center;
   /* background: url(../new_images/Website\ banner.jpg) top center; */
   background-size: cover;
   background-position: bottom;
