@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 .buy-tickets {
   color: #fff;
   /* background: #f82249; */
-  background: linear-gradient(-90deg, rgba(24,34,230,1) 0%, rgba(187,67,252,1) 72%, rgba(188,44,255,1) 100%);
+  background: linear-gradient(51deg, rgba(218,23,23,1) 0%, rgba(253,235,29,1) 50%, rgba(252,176,69,1) 100%);
   padding: 8px 22px;
   margin: 0 0 0 15px;
   border-radius: 50px;
