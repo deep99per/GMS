@@ -17,14 +17,14 @@ body {
 
 
 a {
-  color: #f82249;
+  color: #ffffff;
   text-decoration: none;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
   /* color: #f8234a; */
-  color: rgb(57, 57, 199);
+  color: #8080f5;
   outline: none;
   text-decoration: none;
 }
@@ -34,12 +34,20 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #0e1b4d;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 50px 0px 0px 0px;
+  color: #4d9aff;
 }
 
 .main-page {
@@ -102,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 60px;
   height: 5px;
   /* background: #f82249; */
-  background: rgb(57, 57, 199);
+  background: rgb(255, 255, 255);
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -1059,14 +1067,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 #contact .contact-info address, #contact .contact-info p {
   margin-bottom: 0;
-  color: #112363;
+  color: #ffffff;
 }
 #contact .contact-info h3 {
   font-size: 18px;
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #112363;
+  color: #ffffff;
 }
 #contact .contact-info a {
   color: #4869df;
@@ -1264,7 +1272,7 @@ h3 {
 .sch {
   font: 18px/25px Open Sans;
   font-weight: bold;
-  color: #ff4301;
+  color: #4d9aff;
   padding: 15px 0;
 }
 
